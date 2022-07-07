@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+    font-size: 15px;
+}
+
+/* header & banner */
+
+header{
+    /* width: 100%; */
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)), url("../img/bg.jpg");
+    /* background-size: cover; */
+    background-position: top center;
+    
+    
+}
+
+.banner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 2rem;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #D84780;
+    padding: 13px 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a{
+    color: #A9AAAC;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.inner{
+    text-align: center;
+       
+}
+
+.inner mark{
+    font-weight: 100;
+    color: rgb(47,48,51);
+    background: none;
+}
+
+.inner p{
+    margin-top: 13rem;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #B5BAD1;
+    line-height: 1.8rem;
+}
+
+.inner span{
+    text-decoration: underline;
+    color: rgb(196,196,196);
+}
+
+.inner b{
+    color: #fff;
+}
+
+.inner .my-btn{
+    width: 130px;
+    height: 35px;
+    background-color: #D84780;  
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    
+}
+
+/* Image section */
+
+.image-portion{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.boxes{
+    text-align: center;
+    background-color: #fff;
+    /* justify-content: space-between; */
+}
+
+.boxes img{
+    max-width: 100%;
+}
+
+.boxes p{
+    padding: 8%;
+    line-height: 1.5rem;
+    font-weight: 100;
+    color: gray;
+    
+}
+
+.boxes .more{
+    width: 100px;
+    height: 30px;
+    background-color: #D84780;  
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+/* Two-portion */
+
+.two-portion{
+    color: #fff;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.left{
+    width: 550px;
+    margin-bottom: 2rem;
+}
+
+.left span, .right span{
+    display: flex;
+    
+}
+
+.left .fa, .right .fa{
+    font-size: 1.2rem;
+    /* color: #D84780; */
+}
+
+.left h1, .right h1{
+    position: relative;
+    left: 20px;
+    margin-bottom: 1rem;
+}
+
+.left p, .right p{
+    position: relative;
+    left: 37px;
+    margin-bottom: 1.5rem;
+    line-height: 1.3rem;
+    font-weight: 100;
+    font-size: 1rem;
+}
+
+.left .my-hr{
+    width: 100%;
+}
+
+.left .box1, .right .box1{
+    margin-top: 1.2rem;
+}
+
+.right{
+    width: 550px;
+}
+
+/* Submission-Form */
+
+article{
+    text-align: center;
+    padding-top: 3rem;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.5)),url("../img/pic04.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+article h1{
+    font-weight: 700;
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 0.2rem;
+}
+
+article p{
+    font-weight: 200;
+    color: #fff;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+
+input{
+    width: 40%;
+    height: 5vh;
+    border-radius: 4px;
+    border: 0;
+    padding-left: 5px;
+    color: rgb(179,179,179);
+}
+
+input .first-name{
+    color: #000;
+}
+
+textarea{
+    width: 40%;
+    height: 20vh;
+    border-radius: 4px;
+    border: 0;
+    padding-left: 5px;
+    padding-top: 5px;
+    color: rgb(120, 118, 118);
+}
+
+.more{
+    width: 100px;
+    height: 30px;
+    background-color: none;  
+    border: 0;
+    border-radius: 3px;
+    color: rgb(120, 118, 118);
+    margin-bottom: 2rem;
+    font-size: 0.6rem;
+    cursor: pointer;
+    border: 1px solid #fff;
+    font-style: 700;
+    margin-top: 10px;
+    
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background-color: #D84780;
+}
+
+footer p{
+    font-size: 1rem;
+    font-weight: 200;
+    padding-top: 3rem;
+}
+
+footer b{
+    color: rgb(196,196,196);
+    
+}
+
+footer span{
+    color: grey;
+}
+
+.round-shape{
+    font-size: 30px;
+    
+    border: 1px solid #A9AAAC;
+    border-radius: 100%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 1.8rem;
+ }
+
+
+
+
+
+
+
+
